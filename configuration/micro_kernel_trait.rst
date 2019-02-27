@@ -151,7 +151,7 @@ hold the kernel. Now it looks like this::
             ];
 
             if ($this->getEnvironment() == 'dev') {
-                $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
+                $bundles[] = new \Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             }
 
             return $bundles;
